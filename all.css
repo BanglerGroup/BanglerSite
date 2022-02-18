@@ -1,0 +1,52 @@
+body {
+    background-image: url(Background\ de\ Bangler.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    color: #4d4d4d;
+    transition: 0.4s;
+    border-radius: 12px;
+  }
+  
+  li a:hover {
+    color: #ffffff;
+    transition: 0.4s;
+  }
+
+  ul {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  .titre {
+    font-family: 'Mulish', sans-serif;
+    color: #4d4d4d;
+  }
+
+  .texte {
+    font-family: 'Mulish', sans-serif;
+    color: #4d4d4d;
+  }
